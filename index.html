@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="דניאל שיווק — השכרת מכונות אוכל לאירועים במרכז ובשרון, במחיר טוב ובשירות אישי.">
+  <title>דניאל שיווק | השכרת מכונות אוכל</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#home"><span class="brand-mark">ד</span><span>דניאל שיווק</span></a>
+    <button class="nav-toggle" aria-label="פתיחת תפריט" aria-expanded="false"></button>
+    <nav class="main-nav">
+      <a href="#machines">המכונות</a><a href="#prices">מחירים</a><a href="#gallery">גלריה</a><a href="#faq">שאלות נפוצות</a><a href="#about">אודות</a><a href="#contact">צור קשר</a>
+    </nav>
+    <a class="btn btn-primary header-cta" data-wa-link="היי, אשמח לקבל פרטים על השכרת מכונות אוכל">דברו איתי ב־WhatsApp</a>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-blob blob-a"></div><div class="hero-blob blob-b"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy" data-reveal>
+      <span class="eyebrow">🍿 האירוע שלכם עומד להיות טעים יותר</span>
+      <h1>השכרת מכונות אוכל<br><em>במחיר טוב</em> ובשירות אישי מעולה</h1>
+      <p>פופקורן, שערות סבתא, וופל בלגי, פנקייק, נקניקיות ומכונת קרח — לאירועים באזור המרכז והשרון.</p>
+      <div class="hero-actions"><a class="btn btn-primary" data-wa-link="היי, אשמח להזמין מכונת אוכל לאירוע">להזמנה ב־WhatsApp</a><a class="btn btn-secondary" href="#machines">צפו במכונות</a></div>
+      <div class="hero-facts"><span>איסוף עצמי חינם</span><span>משלוח 50 ₪</span><span>פיקדון 100 ₪</span></div>
+    </div>
+    <div class="hero-visual" data-reveal>
+      <div class="hero-card hero-card-main">🎉<strong>הופכים כל אירוע לחגיגה</strong><small>נקי • פשוט • משתלם</small></div>
+      <div class="floating-card fc-one">🍿 פופקורן</div><div class="floating-card fc-two">🧇 וופל בלגי</div><div class="floating-card fc-three">🍭 שערות סבתא</div>
+    </div>
+  </div>
+</section>
+
+<section class="section compact"><div class="container"><div id="advantages-grid" class="advantages-grid"></div></div></section>
+
+<section id="machines" class="section section-soft">
+  <div class="container"><div class="section-head"><span class="eyebrow">המכונות שלנו</span><h2>כל מה שצריך כדי לשדרג את האירוע</h2><p>בחרו מכונה, השאירו פרטים ונחזור אליכם בתוך כמה שעות.</p></div><div id="machines-grid" class="machines-grid"></div></div>
+</section>
+
+<section class="section"><div class="container"><div class="section-head"><span class="eyebrow">פשוט וקל</span><h2>איך זה עובד?</h2></div><div id="steps-grid" class="steps-grid"></div></div></section>
+
+<section id="prices" class="section calc-section">
+  <div class="container calc-layout"><div><span class="eyebrow">מחשבון מחיר</span><h2>בנו הצעה שמתאימה לאירוע</h2><p>סמנו מכונות ובחרו איסוף או משלוח. המחירים כרגע מוגדרים כ־0 וניתנים לעדכון בקובץ config.js.</p><div id="calc-list" class="calc-list"></div></div>
+  <aside class="calc-summary"><h3>סיכום משוער</h3><div class="delivery-toggle"><button id="calc-pickup">איסוף עצמי</button><button id="calc-delivery">משלוח</button></div><div id="calc-breakdown" class="calc-breakdown"></div><div class="calc-total-row"><span>סה״כ</span><strong id="calc-total">0 ₪</strong></div><button id="calc-cta" class="btn btn-primary full">שלחו הצעה ל־WhatsApp</button><small>הפיקדון מוחזר ואינו כלול בסכום הכולל.</small></aside></div>
+</section>
+
+<section id="gallery" class="section section-soft"><div class="container"><div class="section-head"><span class="eyebrow">גלריה</span><h2>בקרוב: תמונות אמיתיות מהאירועים</h2></div><div id="gallery-grid" class="gallery-grid"></div></div></section>
+
+<section class="section testimonials"><div class="container"><div class="section-head"><span class="eyebrow">לקוחות מספרים</span><h2>כאן יופיעו המלצות אמיתיות</h2></div><div class="testi-wrap"><button class="testi-arrow prev" aria-label="הקודם">‹</button><div class="testi-window"><div id="testi-slides" class="testi-slides"></div></div><button class="testi-arrow next" aria-label="הבא">›</button></div><div id="testi-dots" class="testi-dots"></div></div></section>
+
+<section id="faq" class="section section-soft"><div class="container narrow"><div class="section-head"><span class="eyebrow">שאלות נפוצות</span><h2>כל מה שכדאי לדעת</h2></div><div id="faq-list" class="faq-list"></div></div></section>
+
+<section id="about" class="section"><div class="container about-card" data-reveal><div><span class="eyebrow">קצת עלינו</span><h2>דניאל שיווק</h2><p>עסק להשכרת מכונות אוכל לאירועים באזור המרכז והשרון. המטרה פשוטה: לתת מחיר טוב, יחס אישי ומענה אמיתי — בלי לסבך אתכם.</p></div><div class="about-stats"><div><strong>50 ₪</strong><span>משלוח</span></div><div><strong>100 ₪</strong><span>פיקדון</span></div><div><strong>חינם</strong><span>איסוף עצמי</span></div></div></div></section>
+
+<section id="contact" class="section contact-section"><div class="container contact-layout"><div><span class="eyebrow">בואו נדבר</span><h2>ספרו לי על האירוע שלכם</h2><p>השאירו פרטים והטופס יפתח הודעת WhatsApp מוכנה לשליחה.</p><div class="contact-direct"><a data-phone-link><span>טלפון</span><b data-phone-text></b></a><a data-wa-link="היי, אשמח לפרטים"><span>WhatsApp</span><b>שליחת הודעה</b></a></div></div>
+<form id="contact-form" class="contact-form"><div class="field"><label for="f-name">שם</label><input id="f-name" required><small>נא למלא שם</small></div><div class="field"><label for="f-phone">טלפון</label><input id="f-phone" type="tel" required><small>נא למלא טלפון</small></div><div class="field"><label for="f-event-type">סוג האירוע</label><select id="f-event-type" required><option value="">בחרו</option><option>יום הולדת</option><option>בר/בת מצווה</option><option>אירוע חברה</option><option>תנועת נוער</option><option>אירוע פרטי</option><option>אחר</option></select><small>נא לבחור סוג אירוע</small></div><div class="field"><label for="f-date">תאריך</label><input id="f-date" type="date"></div><div class="field field-full"><label for="f-message">איזו מכונה מעניינת אתכם?</label><textarea id="f-message" rows="4"></textarea></div><button class="btn btn-primary full" type="submit">שליחת הפרטים ב־WhatsApp</button></form></div></section>
+</main>
+
+<footer><div class="container footer-inner"><div><strong>דניאל שיווק</strong><p>השכרת מכונות אוכל במרכז ובשרון.</p></div><div><a href="#machines">מכונות</a><a href="#prices">מחירים</a><a href="#contact">צור קשר</a></div><div><a data-phone-link data-phone-text></a><a data-wa-link="היי, אשמח לפרטים">WhatsApp</a></div></div><div class="container copyright">© <span id="year"></span> דניאל שיווק. כל הזכויות שמורות.</div></footer>
+<a class="floating-wa" data-wa-link="היי, אשמח לפרטים על השכרת מכונות אוכל" aria-label="WhatsApp">WhatsApp</a>
+<div id="lightbox" class="lightbox"><button id="lightbox-close" aria-label="סגירה">×</button><div id="lightbox-content"></div><p id="lightbox-label"></p></div>
+<script src="config.js"></script><script src="main.js"></script>
+</body></html>
