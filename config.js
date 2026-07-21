@@ -8,13 +8,12 @@ const BUSINESS = {
 };
 
 const MACHINES = [
-  { id:'popcorn', name:'מכונת פופקורן', icon:'popcorn',image: 'images/popcornm.png', price:350, tagline:'הריח שמכניס את כולם לאווירה', description:'מכונה נקייה וקלה להפעלה, עם הוראות מסודרות ותמיכה טלפונית במקרה הצורך.', suitableFor:['ימי הולדת','אירועי חברה','בתי ספר'] },
+  { id:'popcorn', name:'מכונת פופקורן', icon:'popcorn',image: 'images/popcornm.png' price:350, tagline:'הריח שמכניס את כולם לאווירה', description:'מכונה נקייה וקלה להפעלה, עם הוראות מסודרות ותמיכה טלפונית במקרה הצורך.', suitableFor:['ימי הולדת','אירועי חברה','בתי ספר'] },
   { id:'cotton-candy', name:'מכונת שערות סבתא', icon:'cottonCandy',image:'images/cottoncandym.png', price:350, tagline:'הלהיט הצבעוני של כל אירוע', description:'דרך פשוטה להפוך כל מסיבה לחוויה מתוקה, שמחה ומצטלמת.', suitableFor:['ילדים','בר/בת מצווה','תנועות נוער'] },
-  { id:'waffle', name:'מכונת וופל בלגי', icon:'waffle',image:'images/wafflem.png', price:250, tagline:'קינוח חם שמרגיש כמו אירוע', description:'מתאימה לעמדת קינוחים מרשימה באירועים פרטיים ועסקיים.', suitableFor:['חתונות','אירועי ערב','אירוח ביתי'] },
-  { id:'pancake', name:'מכונת פנקייק', icon:'pancake',image:'images/pancakem.png', price:250, tagline:'קטן, חם וכיפי', description:'פתרון נהדר לבראנץ׳, ימי הולדת ועמדות קינוחים.', suitableFor:['בראנץ׳','ימי הולדת','אירועי משפחה'] },
-  { id:'hotdog', name:'מכונת נקניקיות', icon:'hotdog',image:'images/hotdogm.png', price:300, tagline:'עמדה פשוטה שמאכילה קהל', description:'מתאימה לאירועים גדולים, פעילות נוער וימי ספורט.', suitableFor:['אירועי חברה','ימי ספורט','תנועות נוער'] },
-  { id:'ice', name:'מכונת קרח', icon:'ice',image:'images/icem.png', price:400, tagline:'קרח זמין לאורך כל האירוע', description:'
-פתרון מעולה למסיבות, ברים ואירועי קיץ באזור המרכז והשרון.', suitableFor:['מסיבות','ברים','אירועי קיץ'] },
+  { id:'waffle', name:'מכונת וופל בלגי', icon:'waffle', price:250, tagline:'קינוח חם שמרגיש כמו אירוע', description:'מתאימה לעמדת קינוחים מרשימה באירועים פרטיים ועסקיים.', suitableFor:['חתונות','אירועי ערב','אירוח ביתי'] },
+  { id:'pancake', name:'מכונת פנקייק', icon:'pancake', price:250, tagline:'קטן, חם וכיפי', description:'פתרון נהדר לבראנץ׳, ימי הולדת ועמדות קינוחים.', suitableFor:['בראנץ׳','ימי הולדת','אירועי משפחה'] },
+  { id:'hotdog', name:'מכונת נקניקיות', icon:'hotdog',image:'images/hotdogm.png' price:300, tagline:'עמדה פשוטה שמאכילה קהל', description:'מתאימה לאירועים גדולים, פעילות נוער וימי ספורט.', suitableFor:['אירועי חברה','ימי ספורט','תנועות נוער'] },
+  { id:'ice', name:'מכונת קרח', icon:'ice', price:400, tagline:'קרח זמין לאורך כל האירוע', description:'פתרון מעולה למסיבות, ברים ואירועי קיץ באזור המרכז והשרון.', suitableFor:['מסיבות','ברים','אירועי קיץ'] },
 ];
 
 const ADVANTAGES = [
