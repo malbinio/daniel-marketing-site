@@ -108,8 +108,10 @@ function renderMachines(){
   wrap.innerHTML = MACHINES.map((m, i) => `
     <article class="machine-card" data-reveal>
       <div class="machine-media" style="background:${MACHINE_BG[i % MACHINE_BG.length]}">
-        ${ICONS[m.icon] || ''}
-      </div>
+${m.image
+  ? `<img src="${m.image}" alt="${m.name}" class="machine-image">`
+  : (ICONS[m.icon] || '')
+}      </div>
       <div class="machine-body">
         <div>
           <h3>${m.name}</h3>

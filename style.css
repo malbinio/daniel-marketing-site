@@ -1065,3 +1065,14 @@ footer {
     display: block;
     object-fit: contain;
 }
+.machine-image {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  display: block;
+}
+
+.machine-media {
+  padding: 12px;
+  background: #fff !important;
+}
